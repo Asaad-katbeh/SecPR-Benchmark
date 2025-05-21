@@ -1,0 +1,34 @@
+{
+  "name": "secpr-benchmark",
+  "version": "1.0.0",
+  "description": "Tool to evaluate AI-based and traditional static analysis tools for detecting security vulnerabilities",
+  "main": "src/main.js",
+  "scripts": {
+    "phase1": "node src/phase1.js",
+    "phase2": "node src/phase2.js",
+    "phase3": "node src/phase3.js",
+    "phase4": "node src/phase4.js",
+    "main": "node src/main.js"
+  },
+  
+  "dependencies": {
+    "@octokit/rest": "^20.0.2",
+    "axios": "^1.9.0",
+    "better-sqlite3": "^9.4.1",
+    "commander": "^12.0.0",
+    "dotenv": "^16.4.5",
+    "openai": "^4.28.0",
+    "simple-git": "^3.22.0"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asaad-katbeh/SecPR-Benchmark.git"
+  },
+  "author": "Asaad Katbeh & Amal Abueshareik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Asaad-katbeh/SecPR-Benchmark/issues"
+  },
+  "homepage": "https://github.com/Asaad-katbeh/SecPR-Benchmark#readme"
+}
